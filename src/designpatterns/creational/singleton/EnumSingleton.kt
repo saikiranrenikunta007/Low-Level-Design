@@ -1,4 +1,4 @@
-package designpatterns.creational.singleton
+package src.designpatterns.creational.singleton
 
 enum class EnumSingleton {
     INSTANCE
