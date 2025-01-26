@@ -1,4 +1,4 @@
-package introduction;
+package src.introduction;
 
 import java.util.function.Predicate;
 

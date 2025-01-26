@@ -1,5 +1,7 @@
 package introduction;
 
+import src.introduction.NumberTests;
+
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -13,7 +15,7 @@ public class Refactored {
     }
     public static void main(String[] args) {
         List<Integer> arr = List.of(1,2,3);
-        System.out.println(sumByTest(arr,NumberTests.isEven()));
+        System.out.println(sumByTest(arr, NumberTests.isEven()));
         System.out.println(sumByTest(arr,NumberTests.isOdd()));
         System.out.println(sumByTest(arr,NumberTests.all()));
         System.out.println(sumByTest(arr,combineTests(List.of(NumberTests.isEven(),NumberTests.isOdd()))));
